@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Phetolo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .container-info {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main-header {
+            text-align: center;
+            padding: 20px;
+            background: #0e5691;
+            color: #080808f2;
+            border-radius: 30px;
+        }
+        .main-header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .profile-pic {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+        .section-title {
+            font-size: 1.8em;
+            color: #0765d1;
+            border-bottom: 2px solid #1a8509;
+            margin-top: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills li, .projects li {
+            flex: 1 1 45%;
+            margin: 5px 0;
+        }
+        .skills li::before, .projects li::before {
+            content: "•";
+            color: #333;
+            margin-right: 10px;
+        }
+        a {
+            color: #333;
+        }
+
+        .contents {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.skills li strong {
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <div class="main-header">
+        <h1>Phetolo Mpe</h1>
+        <img src="./images/Phetolo.jpg" alt="Phetolo" width="150" height="150" class="profile-pic"/>
+        <p>I am a highly driven computer science and statistics graduate seeking a full-time position as a Junior Software Developer where I can lend my knowledge to help your organization improve profitability.</p>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="section-title">Education</h2>
+            <p>Bachelor of Science in Mathematical Sciences with a focus on Computer Science and Statistics, University of Limpopo, 2021</p>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Work Experience</h2>
+            <ul>
+                <li><strong>Graduate Engineer (Software Testing) and Network Service Assurance - MTN SA</strong>
+                    <ul>
+                        <li>Completed courses in Agile in Testing, Introduction to Automation Testing, SDLC, STLC, and Tester Foundation.</li>
+                    </ul>
+                </li>
+                <li><strong>Service Assurance - Mobile Telephone Network</strong>
+                    <ul>
+                        <li>Provided site updates to the company's vendors.</li>
+                        <li>Network Optimization.</li>
+                    </ul>
+                </li>
+                <li><strong>Software Developer - Bankseta</strong>
+                    <ul>
+                        <li>Developed software, including websites and mobile applications.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contents">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills">
+                <li>Programming Languages: Java, Android Studio, React Native, React, Expo Go, C++, Firebase, JavaScript, HTML, CSS, Microsoft SQL Server, Unix</li>
+                <li>Agile Testing and Automation Testing</li>
+                <li>Data Analysis</li>
+                <li>Tools and Platforms: SQL, Node.js, Telecommunications</li>
+                <li>Design: Adobe Illustrator, Photoshop</li>
+                <li>Personal Skills: Creative, Leadership, Multitasking, Responsible, Hardworking, High Emotional Intelligence, Problem Solving</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects">
+                <li><strong>Internet Service Provider Website:</strong> Created using HTML and CSS to enhance flexibility, control, branding, and credibility for businesses.</li>
+                <li><strong>Energy and IT Services Website:</strong> Commercial site for selling solar panels online, developed using React, CSS, JavaScript, HTML, and Node.js.</li>
+                <li><strong>ICT Website:</strong> Online store for web hosting, Wi-Fi equipment, and computer hardware repairs, developed using React, CSS, JavaScript, HTML, and Node.js.</li>
+                <li><strong>Human Resources Management System:</strong> Developed for MTN to store employee details, manage requests, and facilitate HR processes.</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">Major Courses</h2>
+            <ul>
+                <li>Database Systems, Data Structures, Artificial Intelligence</li>
+                <li>Computer Networks, Operating Systems</li>
+                <li>Applied Linear Regression, Time Series Analysis</li>
+                <li>Design and Analysis of Experiments, Sampling Theory</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-info">
+        <div class="content">
+            <h2 class="section-title">Contact Me</h2>
+            <a href="./Public/Contact Me.html">
+                <img src="https://media1.giphy.com/media/MEjG5NXKKS68LvGIP2/giphy.webp?cid=ecf05e47dlvxu0ps0j9u4kaodqyb5z1w4vochc28064ydsz8&ep=v1_gifs_search&rid=giphy.webp&ct=g" height="200" alt="Call"/>
+            </a>
+        </div>
+
+        <div class="content">
+            <h2 class="section-title">My Hobbies</h2>
+            <a href="./Public/My Hobbies.html">
+                <img src="https://media3.giphy.com/media/USsTTgX9RRd3AyHpZ8/200w.webp?cid=ecf05e474d4b72mvssjrc2iaszj4l6rpjeaxmmjfylviksho&ep=v1_gifs_search&rid=200w.webp&ct=g" alt="Hobbies"/>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">Phetolo © 2024 All Rights Reserved</p>
+    </footer>
+</body>
+</html>
